@@ -1,0 +1,137 @@
+body,
+#main,
+#header,
+ul,
+div,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+body,
+#main,
+#header {
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+}
+#header {
+  background: #2F2C35;
+  overflow: hidden;
+}
+#header .hdlt {
+  width: 100%;
+  overflow: hidden;
+}
+#header .hdlt ul {
+  float: left;
+  margin-top: 10px;
+  width: 60px;
+  overflow: hidden;
+  list-style: none;
+}
+#header .hdlt ul .li1 {
+  float: left;
+  width: 5px;
+  height: 5px;
+  margin: 5px 2px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 50%;
+}
+#header .hdlt ul .li2 {
+  float: left;
+  width: 5px;
+  height: 5px;
+  margin: 5px 2px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+#header .hdlt .div1 {
+  width: 30%;
+  margin-left: 5px;
+  float: left;
+  margin-top: 10px;
+}
+#header .hdlt .div1 span {
+  font-size: 1em;
+  color: #ffffff;
+}
+#header .hdlt .div2 {
+  margin-top: 10px;
+  width: 15%;
+  float: left;
+  text-align: right;
+}
+#header .hdlt .div2 h1 {
+  font-size: 1em;
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+#header .hdlt .div3 {
+  float: right;
+  margin-top: 10px;
+}
+#header .div4 {
+  width: 100%;
+  float: left;
+  font-size: 1.5em;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+.tu {
+  width: 100%;
+}
+.tu img {
+  width: 100%;
+  height: 50%;
+}
+#main {
+  width: 100%;
+}
+#main .top {
+  margin: 10px 0;
+  width: 100%;
+  overflow: hidden;
+}
+#main .top .tplt {
+  float: right;
+  display: inline;
+  margin-top: 0px;
+}
+#main .top .tprt {
+  float: right;
+}
+#main .top .tprt img {
+  margin: 2px 5px;
+  display: block;
+}
+#main ul {
+  width: 100%;
+}
+#main ul li {
+  overflow: hidden;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  position: relative;
+}
+#main ul li .img1 {
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+}
+#main ul li .img2 {
+  width: 25%;
+  padding-top: 20px;
+}
+#main ul li .img3 {
+  width: 15%;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+#main ul .lii {
+  border-bottom: 1px solid #ccc;
+}
